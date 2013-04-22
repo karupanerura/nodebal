@@ -1,0 +1,27 @@
+{
+  "name": "nodebal",
+  "version": "0.0.0",
+  "description": "pluggable and programable http reverse proxy server.",
+  "main": "nodebal.js",
+  "scripts": {
+    "test": "prove --ext=.js --exec=node t"
+  },
+  "bin": {
+    "nodebal": "bin/nodebal"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "./lib/nodebal",
+  "repository": "",
+  "keywords": [
+    "load",
+    "balancer",
+    "reverse",
+    "proxy",
+    "http"
+  ],
+  "author": "karupanerura <karupa@cpan.org>",
+  "license": "BSD",
+  "preferGlobal": true
+}
