@@ -13,7 +13,7 @@
     "node": ">= 0.10.0"
   },
   "main": "./lib/nodebal",
-  "repository": "",
+  "repository": "git@github.com:karupanerura/nodebal.git",
   "keywords": [
     "load",
     "balancer",
